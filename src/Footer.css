@@ -1,0 +1,36 @@
+footer {
+  height: 5vh;
+  background: #0f8a5f;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+footer p {
+  margin: 0;
+  font-size: 2.6rem;
+  text-align: center;
+  padding: 5px 0;
+}
+
+footer p a {
+  text-decoration: none;
+  color: white;
+}
+
+footer p a:hover,
+footer p a:focus {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+body.swal2-height-auto {
+  height: 100vh !important;
+}
+
+@media (min-width: 0px) and (max-width: 520px) {
+  footer p {
+    font-size: 1.6rem;
+  }
+}

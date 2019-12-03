@@ -1,22 +1,74 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+html {
+  font-size: 10px;
   color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+body {
+  background-image: url(./assets/background.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: 'Mountains of Christmas', cursive;
+  height: 100vh;
+  position: relative;
+}
+
+.wrapper {
+  margin: 0 5%;
+}
+
+.wish-and-form {
+  margin: 0 auto;
+  width: 80%;
+  border: 10px solid white;
+  outline: 7px solid #cc231e;
+  background-color: #cc231e;
+  height: 75vh;
+  position: relative;
+}
+
+.wish ul {
+  list-style: none;
+  padding: 0;
+}
+
+.wish li {
+  margin: 2% 5%;
+  font-size: 3.6rem;
+}
+
+.wish__list {
+  width: 95%;
+  display: inline-block;
+  border-bottom: 2px solid white;
+}
+
+.wish__removal {
+  width: 5%;
+  display: inline-block;
+  border-bottom: 2px solid white;
+  text-align: right;
+}
+
+.wish__removal:hover {
+  font-weight: 700;
+}
+
+.swal2-html-container {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+@media (min-width: 0px) and (max-width: 520px) {
+  .wish li {
+    margin: 2% 5%;
+    font-size: 2rem;
+  }
+  .wrapper {
+    margin: 0;
+  }
+
+  .wish-and-form {
+    width: 90%;
+  }
 }

@@ -1,0 +1,23 @@
+header {
+  height: 15vh;
+}
+
+h1 {
+  font-size: 8rem;
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 20px;
+}
+
+@media (min-width: 0px) and (max-width: 520px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 521px) and (max-width: 680px) {
+  h1 {
+    font-size: 5rem;
+  }
+}

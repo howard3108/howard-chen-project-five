@@ -1,0 +1,50 @@
+.input {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+}
+
+.input form {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 5%;
+}
+
+.visually-hidden {
+  display: none;
+}
+
+.input__field,
+.input__button {
+  font-size: 2.6rem;
+  font-family: 'Mountains of Christmas', cursive;
+  border: none;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.input__field {
+  width: 50%;
+  font-weight: 700;
+}
+
+.input_field:focus {
+  border: 3px solid green;
+}
+
+.input__button {
+  background-color: white;
+}
+
+.input__button:hover,
+.input__button:focus {
+  border: 3px solid green;
+  font-weight: 700;
+}
+
+@media (min-width: 0px) and (max-width: 520px) {
+  .input__field,
+  .input__button {
+    font-size: 1.6rem;
+  }
+}
