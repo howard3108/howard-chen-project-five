@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/howard-chen-project-five/static/css/main.613271ab.chunk.css",
+    "main.js": "/howard-chen-project-five/static/js/main.d5d259c3.chunk.js",
+    "main.js.map": "/howard-chen-project-five/static/js/main.d5d259c3.chunk.js.map",
+    "runtime-main.js": "/howard-chen-project-five/static/js/runtime-main.747166f3.js",
+    "runtime-main.js.map": "/howard-chen-project-five/static/js/runtime-main.747166f3.js.map",
+    "static/css/2.dfe7030c.chunk.css": "/howard-chen-project-five/static/css/2.dfe7030c.chunk.css",
+    "static/js/2.6d634b57.chunk.js": "/howard-chen-project-five/static/js/2.6d634b57.chunk.js",
+    "static/js/2.6d634b57.chunk.js.map": "/howard-chen-project-five/static/js/2.6d634b57.chunk.js.map",
+    "index.html": "/howard-chen-project-five/index.html",
+    "precache-manifest.e57d37cfb4a957d102dd1bc40e85cce7.js": "/howard-chen-project-five/precache-manifest.e57d37cfb4a957d102dd1bc40e85cce7.js",
+    "service-worker.js": "/howard-chen-project-five/service-worker.js",
+    "static/css/2.dfe7030c.chunk.css.map": "/howard-chen-project-five/static/css/2.dfe7030c.chunk.css.map",
+    "static/css/main.613271ab.chunk.css.map": "/howard-chen-project-five/static/css/main.613271ab.chunk.css.map",
+    "static/media/App.css": "/howard-chen-project-five/static/media/background.150b7a85.webp"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.747166f3.js",
+    "static/css/2.dfe7030c.chunk.css",
+    "static/js/2.6d634b57.chunk.js",
+    "static/css/main.613271ab.chunk.css",
+    "static/js/main.d5d259c3.chunk.js"
+  ]
+}
